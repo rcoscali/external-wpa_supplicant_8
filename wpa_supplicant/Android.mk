@@ -1595,7 +1595,7 @@ endif
 
 local_target_dir := $(TARGET_OUT)/etc/wifi
 
-ifneq ($(SKIP_WPA_SUPPLICAN_CONF),y)
+ifneq ($(SKIP_WPA_SUPPLICANT_CONF),y)
 include $(CLEAR_VARS)
 LOCAL_MODULE := wpa_supplicant.conf
 LOCAL_MODULE_CLASS := ETC
